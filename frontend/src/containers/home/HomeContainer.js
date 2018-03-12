@@ -19,13 +19,11 @@ class HomeContainer extends Component<Props> {
 
     render() {
         const { message } = this.props;
-
+        console.log(message);
         return (
             <div>
                 <InputPreview value={message} onChange={this._onChange} />
-                <Link to="/about">
-                    <button>Go to About</button>
-                </Link>
+                <button onClick={this.props.getMessages}>Go to About</button>
             </div>
         );
     }
