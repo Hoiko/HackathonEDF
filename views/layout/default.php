@@ -14,6 +14,7 @@
 	<meta name="robots" content="index, follow, archive">
 	<meta name="robots" content="all">
 	<!-- /*/ -->
+	<link rel="stylesheet" type="text/css" href="<?php echo WEBROOT; ?>Assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo WEBROOT; ?>Assets/css/homes.css">
 
 	<title>Hackathon_EDF</title>
@@ -26,5 +27,7 @@
 	echo $content_for_layout; ?>
 	<footer>
 	</footer>
+	<script src="<?php echo WEBROOT; ?>Assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="<?php echo WEBROOT; ?>Assets/js/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
