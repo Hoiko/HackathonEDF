@@ -8,6 +8,7 @@ require (ROOT.'Core/Model.php');
 require (ROOT.'Core/Controller.php');
 
 $params = explode('/',$_GET['p']);
+var_dump($params);
 $controller  = $params[0];
 
 $controller = $params[0] !== "" ? $params[0] : 'Homes';

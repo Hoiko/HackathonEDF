@@ -8,13 +8,14 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<!-- /*/ -->
 	<!-- Meta pour le référencement -->
-	<meta name="description" content="my_meetic site de rencontre">
+	<meta name="description" content="Hackaton EDF">
 	<!-- /*/ -->
 	<!-- Meta pour les robots ,  l'indexation, le potentiel de positionnement et le cache -->
 	<meta name="robots" content="index, follow, archive">
 	<meta name="robots" content="all">
 	<!-- /*/ -->
-	<link rel="stylesheet" type="text/css" href="<?php echo WEBROOT; ?>Assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="<?php echo WEBROOT; ?>Assets/css/homes.css">
 
 	<title>Hackathon_EDF</title>
@@ -27,7 +28,11 @@
 	echo $content_for_layout; ?>
 	<footer>
 	</footer>
-	<script src="<?php echo WEBROOT; ?>Assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="<?php echo WEBROOT; ?>Assets/js/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
